@@ -17,15 +17,13 @@
 想学？  
 看看下面！！
 
-
-
-
 ## step1:pom文件中首先引入各种jar包
 ## step2:src/main/java目录下新建Application类
 ## step3:src/main/java目录下新建UserController类
-## step3:
-## step3:
-## step3:
-## step4:运行Application中的main函数
-## step5:在浏览器中输入localhost:8080/users{username}
-## step6:
+## step4:在resources目录下新建templates目录在此之下再新建userView目录userView下新建hello.html
+## step5:src/main/java/com/wpspace目录下新建HelloController类
+## step6:在resources目录下新建static目录，static目录下新建js和css目录，再之后可以分模块创建
+## step7:运行Application中的main函数
+## step8:在浏览器中输入localhost:8080/users/wp
+## step9:http://localhost:8080/hello/wp
+## step10:最基本的springboot搭建完毕
