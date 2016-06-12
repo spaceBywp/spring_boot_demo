@@ -7,7 +7,7 @@
 新建项目，书写pom，配置springmvc.xml，配置spring.xml，配置web.xml   新建一个.java文件，return "hello word"，配置tomcat，启动tomcat。
 
 
-以上是正常流程，，，，，
+以上是正常流程
 麻不麻烦，累不累，
 
 如果告诉你有一种5分钟就可以完事的框架你学不学？
