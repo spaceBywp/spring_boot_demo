@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping(value = "/")
 public class loginController {
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String loginGet() {

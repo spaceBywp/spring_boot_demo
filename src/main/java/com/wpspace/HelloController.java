@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HelloController {
-    @RequestMapping("/hello/{name}")
-    public String hello(@PathVariable("name") String name, Model model) {
+    @RequestMapping(value = "/hello/{name}")
+    public String hello(@PathVariable(value = "name") String name, Model model) {
         model.addAttribute("name", name);
         return "userView/hello";
     }

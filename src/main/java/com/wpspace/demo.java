@@ -4,9 +4,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/classPath")
+@RequestMapping(value = "/classPath")
 public class demo {
-    @RequestMapping("/methodPath")
+    @RequestMapping(value = "/methodPath")
     public String method() {
         return "mapping url is /classPath/methodPath";
     }
